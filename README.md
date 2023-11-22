@@ -1,15 +1,17 @@
 ## Description
+
 ![Ayush's Portfolio](image.png)
+
 This project showcases my portfolio in a structured manner, highlighting various works I've done. It provides details about each work along with associated images, descriptions, and links.
 
 ## Table of Contents
-## Features
-## Technologies Used
-## Getting Started
-## Usage
-## Contributing
-## License
-## Features
+# Features
+# Technologies Used
+# Getting Started
+# Usage
+# Contributing
+# License
+# Features
 Display a portfolio of works
 Filter works by categories such as UI/UX, Web App, Mobile App, React JS, etc.
 Showcase multiple images for each work using a slideshow on hover
