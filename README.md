@@ -1,16 +1,11 @@
 ## Description
 
-![Ayush's Portfolio](image.png)
+
+![Ayush's Portfolio](https://github.com/ayushshukla7777/ayush-portfolio/assets/53791140/75ea9418-d46e-45b5-a9cc-30fd61923e67)
 
 This project showcases my portfolio in a structured manner, highlighting various works I've done. It provides details about each work along with associated images, descriptions, and links.
 
-## Table of Contents
-# Features
-# Technologies Used
-# Getting Started
-# Usage
-# Contributing
-# License
+
 # Features
 Display a portfolio of works
 Filter works by categories such as UI/UX, Web App, Mobile App, React JS, etc.
