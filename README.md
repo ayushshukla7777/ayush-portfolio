@@ -1,13 +1,39 @@
-# Micael - The Ultimate Web Development Portfolio 
-![Micael](https://i.ibb.co/fHPM38q/image.png)
+## Description
+![Ayush's Portfolio](image.png)
+This project showcases my portfolio in a structured manner, highlighting various works I've done. It provides details about each work along with associated images, descriptions, and links.
 
-### [🌟 Become a top 1% Next.js 13 developer in only one course](https://jsmastery.pro/next13)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
+## Table of Contents
+## Features
+## Technologies Used
+## Getting Started
+## Usage
+## Contributing
+## License
+## Features
+Display a portfolio of works
+Filter works by categories such as UI/UX, Web App, Mobile App, React JS, etc.
+Showcase multiple images for each work using a slideshow on hover
+Direct links to project and code repositories
+## Technologies Used
+React.js
+Framer Motion (for animations)
+Sanity (for backend data management)
+Other libraries or technologies you've utilized
+## Getting Started
+Prerequisites
+Node.js installed
+Sanity Studio set up with required schemas and data
+## Installation
+Clone the repository.
+Navigate to the project directory.
+Run npm install to install dependencies.
+## Configuration
+Set up Sanity Studio with required schemas and populate data.
+## Usage
+Start the development server using npm start.
+Access the project on localhost:3000 in your browser.
+## Contributing
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please create an issue or submit a pull request.
 
-## Introduction
-This is a code repository for the corresponding video tutorial.
-
-Do you know the best way to show your skills to employers or potential clients? Stand out from the crowd by presenting a well-digitalized flexible portfolio and get your dream job.
-
-## Stay up to date with new projects
-New major projects coming soon, subscribe to the mailing list to stay up to date https://resource.jsmasterypro.com/newsletter
+## License
+This project is licensed under the MIT License.
