@@ -75,6 +75,10 @@
       width: 100%;
       margin: 1rem;
     }
+    @media screen and  (min-width: 300px) and (max-width: 840px) {
+      width: 80%;
+      margin: 1rem;
+    }
   }
 }
 
@@ -136,6 +140,7 @@
   width: 100%;
   position: relative;
   flex-direction: column;
+  display: none;
 
   h4 {
     margin-top: 1rem;
@@ -143,6 +148,11 @@
 
     @media screen and (min-width: 2000px) {
       margin-top: 3rem;
+    }
+    @media screen and (max-width: 767px) {
+      .app__work-content {
+        display: none; /* Or hide it in another way */
+      }
     }
   }
 
@@ -155,3 +165,16 @@
     top: -25px;
   }
 }
+
+// @media screen and (min-width: 768px) {
+//   .app__work-content {
+//     display: block; /* Or any other appropriate styling */
+//   }
+// }
+
+// /* For small screens */
+// @media screen and (max-width: 767px) {
+//   .app__work-content {
+//     display: none; /* Or hide it in another way */
+//   }
+// }

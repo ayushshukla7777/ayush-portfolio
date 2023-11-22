@@ -1,8 +1,8 @@
 /* eslint-disable */
-
-import React, { useState, useEffect } from 'react';
-import { AiFillEye, AiFillGithub } from 'react-icons/ai';
-import { motion } from 'framer-motion';
+import { useMediaQuery } from 'react-responsive';
+import React, { useState, useEffect } from "react";
+import { AiFillEye, AiFillGithub } from "react-icons/ai";
+import { motion } from "framer-motion";
 
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { urlFor, client } from "../../client";
@@ -13,6 +13,7 @@ const Work = () => {
   // const [filterWork, setFilterWork] = useState([]);
   // const [activeFilter, setActiveFilter] = useState('All');
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
+  const isMediumScreen = useMediaQuery({ minWidth: 768 });
 
   useEffect(() => {
     const query = '*[_type == "works"]';
@@ -112,16 +113,17 @@ const Work = () => {
               </motion.div>
             </div>
 
-            <div className="app__work-content app__flex">
+            <div className="app__work-content app__flex" >
               <h4 className="bold-text">{work.title}</h4>
-              <p className="p-text" style={{ marginTop: 10 }}>
+              <p className="p-text" style={{ marginTop: 10 , display: isMediumScreen ? 'block' : 'none'}}>
                 {work.description}
               </p>
 
               <div className="app__work-tag app__flex">
                 {work.tags.map((tag, index) => (
-                  <p className="p-text" key={index}>
-                    {tag}{index !== work.tags.length - 1 ? '\u00A0' : ''}
+                  <p className="p-text" key={index} style ={{display: isMediumScreen ? 'block' : 'none'}}>
+                    {tag}
+                    {index !== work.tags.length - 1 ? "\u00A0" : ""}
                   </p>
                 ))}
                 {/* <p className="p-text">{work.tags[0]}</p> */}
@@ -137,5 +139,5 @@ const Work = () => {
 export default AppWrap(
   MotionWrap(Work, "app__works"),
   "work",
-  "app__primarybg",
+  "app__primarybg"
 );
